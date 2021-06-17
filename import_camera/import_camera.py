@@ -1,7 +1,7 @@
 '''
 Script Name: Import Camera
 Script Version: 4.0
-Flame Version: 2021
+Flame Version: 2021.2
 Written by: Michael Vaglienty - michael@slaytan.net
 Creation Date: 06.02.18
 Update Date: 05.22.21
@@ -1524,12 +1524,12 @@ def get_batch_custom_ui_actions():
                 {
                     'name': 'Import FBX',
                     'execute': import_fbx,
-                    'minimumVersion': '2021'
+                    'minimumVersion': '2021.2'
                 },
                 {
                     'name': 'Import Alembic',
                     'execute': import_abc,
-                    'minimumVersion': '2021'
+                    'minimumVersion': '2021.2'
                 }
             ]
         }
